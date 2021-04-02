@@ -36,6 +36,7 @@
     grid-column: 1 / -1;
     height: 50px;
     width: 450px;
+    margin-bottom: 1rem;
 }
 
 .cell{
