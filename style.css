@@ -9,6 +9,40 @@
     text-align: center;
 }
 
+#overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#overlayText{
+    font-size: 3rem;
+    color: white;
+}
+
+#overlayButton{
+    font-size: 2rem;
+    background-color: white;
+    border: 3px solid black;
+    padding: .25em .5em;
+    cursor: pointer;
+}
+
+#overlayButton:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
 #footer{
     font-size: medium;
     background-color: gray;
