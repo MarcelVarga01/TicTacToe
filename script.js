@@ -20,6 +20,8 @@ class Board{
                 xIsNext = true;
             }
         filledCells++;
+        if (xIsNext) currentTurn.textContent = "Current Turn: X";
+        else currentTurn.textContent = "Current Turn: O";
     }
 
     getWinner(){
@@ -82,6 +84,7 @@ const cellTextElement = document.querySelectorAll('.cell');
 const overlayButton = document.querySelector('#overlayButton');
 const overlay = document.querySelector('#overlay');
 const overlayText = document.querySelector("#overlayText");
+const currentTurn = document.querySelector("#currentTurn");
 
 const board = new Board(cellTextElement);
 
