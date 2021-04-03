@@ -72,11 +72,12 @@ class Board{
     restartGame(){
         gameIsLive = true;
         xIsNext = true;
+        currentTurn.textContent = "Current Turn: X";
         filledCells = 0;
         for (let i = 0; i < cellTextElement.length; i++)
             cellTextElement[i].textContent = '';
-    }
-    
+        }
+        
 }  
 
 
