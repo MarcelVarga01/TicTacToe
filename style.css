@@ -8,7 +8,9 @@
     margin: auto;
     text-align: center;
 }
-
+body{
+    justify-content: center;
+}
 #overlay {
     position: fixed;
     width: 100%;
@@ -50,7 +52,8 @@
     height: 30px;
     width: auto;
     margin-top: 10px;
-
+    width: 450px;
+    margin: auto;
 }
 
 .board{
